@@ -1,0 +1,9 @@
+ollama
+openai
+chromadb
+sentence-transformers
+jieba
+pypinyin
+pydantic
+streamlit
+pandas
