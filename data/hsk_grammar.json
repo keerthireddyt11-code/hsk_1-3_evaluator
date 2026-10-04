@@ -1,0 +1,1482 @@
+{
+ "meta": {
+  "standard": "HSK 2.0, Levels 1-3",
+  "grammar_source": "Chinese Grammar Wiki (AllSet Learning) HSK 1/2/3 grammar point lists, accessed 2026-10-03; plus reviewer-suggested additions",
+  "license_note": "Wiki: non-commercial use with attribution (Creative Commons) - confirm exact terms on the wiki. Explanations/examples here are original wording.",
+  "caveat": "HSK 2.0 had no official grammar standard; levels are the wiki's estimates.",
+  "error_strength_key": "clear = safe definite error for the answer key; non-canonical = marked/meaning-changing, do not use as a definite error; standard-written = wrong in formal writing only",
+  "rule_count": 59
+ },
+ "rules": [
+  {
+   "rule_id": "G1-01",
+   "level": 1,
+   "category": "word order",
+   "title": "Basic sentence order",
+   "pattern": "Subj. + Verb + Obj.",
+   "explanation": "In neutral word order the verb comes before its object. Putting the object first (我茶喝) is only used for contrast or a topic, so beginners should use Subj. + Verb + Obj.",
+   "correct_example": {
+    "zh": "我喝茶。",
+    "pinyin": "Wǒ hē chá.",
+    "en": "I drink tea."
+   },
+   "wrong_example": {
+    "zh": "我茶喝。",
+    "pinyin": "Wǒ chá hē.",
+    "en": "(I tea drink.)",
+    "why": "The object is placed before the verb."
+   },
+   "source_point": "Basic sentence order",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "non-canonical",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 1 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_1_grammar_points, accessed 2026-10-03",
+   "embed_text": "Basic sentence order. In neutral word order the verb comes before its object. Putting the object first (我茶喝) is only used for contrast or a topic, so beginners should use Subj. + Verb + Obj. Common mistake: The object is placed before the verb. Keywords: subject verb object SVO word order. Pattern: Subj. + Verb + Obj."
+  },
+  {
+   "rule_id": "G1-02",
+   "level": 1,
+   "category": "adjectives",
+   "title": "Adjective sentences: 很 comes before the adjective",
+   "pattern": "Subj. + 很 + Adj.",
+   "explanation": "An adjective can be the predicate by itself, so a plain statement does not need 是 (我很忙). 是 + adjective does exist, but only for emphasis or contrast ('I AM busy, but...'), so do not mark it wrong. The degree word 很 goes before the adjective, not after it.",
+   "correct_example": {
+    "zh": "我很忙。",
+    "pinyin": "Wǒ hěn máng.",
+    "en": "I am busy."
+   },
+   "wrong_example": {
+    "zh": "我忙很。",
+    "pinyin": "Wǒ máng hěn.",
+    "en": "(I busy very.)",
+    "why": "很 must come before the adjective, not after it."
+   },
+   "source_point": "Simple 'noun + adjective' sentences",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 1 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_1_grammar_points, accessed 2026-10-03",
+   "embed_text": "Adjective sentences: 很 comes before the adjective. An adjective can be the predicate by itself, so a plain statement does not need 是 (我很忙). 是 + adjective does exist, but only for emphasis or contrast ('I AM busy, but...'), so do not mark it wrong. The degree word 很 goes before the adjective, not after it. Common mistake: 很 must come before the adjective, not after it. Keywords: to be shi adjective hen very busy. Pattern: Subj. + 很 + Adj."
+  },
+  {
+   "rule_id": "G1-03",
+   "level": 1,
+   "category": "adverbs",
+   "title": "都 and 也 go before the verb",
+   "pattern": "Subj. + 都/也 + Verb",
+   "explanation": "都 (all) and 也 (also) come after the subject and before the verb. They do not go after the verb.",
+   "correct_example": {
+    "zh": "我们都是学生。",
+    "pinyin": "Wǒmen dōu shì xuésheng.",
+    "en": "We are all students."
+   },
+   "wrong_example": {
+    "zh": "我们是都学生。",
+    "pinyin": "Wǒmen shì dōu xuésheng.",
+    "en": "(We are all students, with 都 after 是.)",
+    "why": "都 must come before 是, not after it."
+   },
+   "source_point": "The 'all' adverb 'dou'; The 'also' adverb 'ye'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 1 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_1_grammar_points, accessed 2026-10-03",
+   "embed_text": "都 and 也 go before the verb. 都 (all) and 也 (also) come after the subject and before the verb. They do not go after the verb. Common mistake: 都 must come before 是, not after it. Keywords: dou ye all also adverb position. Pattern: Subj. + 都/也 + Verb"
+  },
+  {
+   "rule_id": "G1-04",
+   "level": 1,
+   "category": "questions",
+   "title": "Yes/no questions with 吗",
+   "pattern": "Statement + 吗？",
+   "explanation": "Add 吗 to the end of a statement to make a yes/no question. Do not put it in the middle.",
+   "correct_example": {
+    "zh": "你喜欢喝茶吗？",
+    "pinyin": "Nǐ xǐhuan hē chá ma?",
+    "en": "Do you like drinking tea?"
+   },
+   "wrong_example": {
+    "zh": "你吗喜欢喝茶？",
+    "pinyin": "Nǐ ma xǐhuan hē chá?",
+    "en": "(Do you like drinking tea? with 吗 in the wrong place.)",
+    "why": "吗 belongs at the end of the sentence."
+   },
+   "source_point": "Yes-no questions with 'ma'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 1 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_1_grammar_points, accessed 2026-10-03",
+   "embed_text": "Yes/no questions with 吗. Add 吗 to the end of a statement to make a yes/no question. Do not put it in the middle. Common mistake: 吗 belongs at the end of the sentence. Keywords: ma question particle yes no. Pattern: Statement + 吗？"
+  },
+  {
+   "rule_id": "G1-05",
+   "level": 1,
+   "category": "questions",
+   "title": "Follow-up questions with 呢",
+   "pattern": "Statement，Noun/Pronoun + 呢？",
+   "explanation": "Put 呢 after a noun or pronoun to ask 'and you?' or 'what about...?'. The word comes first, then 呢.",
+   "correct_example": {
+    "zh": "我很好，你呢？",
+    "pinyin": "Wǒ hěn hǎo, nǐ ne?",
+    "en": "I am fine, and you?"
+   },
+   "wrong_example": {
+    "zh": "我很好，呢你？",
+    "pinyin": "Wǒ hěn hǎo, ne nǐ?",
+    "en": "(I am fine, and you? with 呢 first.)",
+    "why": "呢 comes after the word, not before it."
+   },
+   "source_point": "Questions with 'ne'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 1 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_1_grammar_points, accessed 2026-10-03",
+   "embed_text": "Follow-up questions with 呢. Put 呢 after a noun or pronoun to ask 'and you?' or 'what about...?'. The word comes first, then 呢. Common mistake: 呢 comes after the word, not before it. Keywords: ne how about and you. Pattern: Statement，Noun/Pronoun + 呢？"
+  },
+  {
+   "rule_id": "G1-06",
+   "level": 1,
+   "category": "questions",
+   "title": "Question words stay in place",
+   "pattern": "Subj. + Verb + 什么/谁/哪儿",
+   "explanation": "A Chinese question word takes the place of the answer. It does not move to the front of the sentence like in English.",
+   "correct_example": {
+    "zh": "你想吃什么？",
+    "pinyin": "Nǐ xiǎng chī shénme?",
+    "en": "What do you want to eat?"
+   },
+   "wrong_example": {
+    "zh": "你什么想吃？",
+    "pinyin": "Nǐ shénme xiǎng chī?",
+    "en": "(What you want eat?)",
+    "why": "什么 should come after the verb, where the answer would be."
+   },
+   "source_point": "Placement of question words",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 1 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_1_grammar_points, accessed 2026-10-03",
+   "embed_text": "Question words stay in place. A Chinese question word takes the place of the answer. It does not move to the front of the sentence like in English. Common mistake: 什么 should come after the verb, where the answer would be. Keywords: what who where shenme question word order. Pattern: Subj. + Verb + 什么/谁/哪儿"
+  },
+  {
+   "rule_id": "G1-07",
+   "level": 1,
+   "category": "questions",
+   "title": "No 吗 with question words",
+   "pattern": "Question-word question (no 吗)",
+   "explanation": "A question that already has 什么, 谁, 哪儿, 几 or 怎么 does not need 吗.",
+   "correct_example": {
+    "zh": "你叫什么名字？",
+    "pinyin": "Nǐ jiào shénme míngzi?",
+    "en": "What is your name?"
+   },
+   "wrong_example": {
+    "zh": "你叫什么名字吗？",
+    "pinyin": "Nǐ jiào shénme míngzi ma?",
+    "en": "(What is your name? with an extra 吗.)",
+    "why": "吗 should not be added to a question that has a question word."
+   },
+   "source_point": "Yes-no questions with 'ma'; Placement of question words",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 1 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_1_grammar_points, accessed 2026-10-03",
+   "embed_text": "No 吗 with question words. A question that already has 什么, 谁, 哪儿, 几 or 怎么 does not need 吗. Common mistake: 吗 should not be added to a question that has a question word. Keywords: ma shenme redundant question word. Pattern: Question-word question (no 吗)"
+  },
+  {
+   "rule_id": "G1-08",
+   "level": 1,
+   "category": "measure words",
+   "title": "几 needs a measure word",
+   "pattern": "几 + Measure Word + Noun？",
+   "explanation": "To ask 'how many', put a measure word between 几 and the noun.",
+   "correct_example": {
+    "zh": "你有几个朋友？",
+    "pinyin": "Nǐ yǒu jǐ gè péngyou?",
+    "en": "How many friends do you have?"
+   },
+   "wrong_example": {
+    "zh": "你有几朋友？",
+    "pinyin": "Nǐ yǒu jǐ péngyou?",
+    "en": "(How many friends? with no measure word.)",
+    "why": "The measure word 个 is missing."
+   },
+   "source_point": "Measure words in quantity questions",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 1 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_1_grammar_points, accessed 2026-10-03",
+   "embed_text": "几 needs a measure word. To ask 'how many', put a measure word between 几 and the noun. Common mistake: The measure word 个 is missing. Keywords: ji how many measure word ge. Pattern: 几 + Measure Word + Noun？"
+  },
+  {
+   "rule_id": "G1-09",
+   "level": 1,
+   "category": "measure words",
+   "title": "Numbers need a measure word",
+   "pattern": "Number + 个 + Noun",
+   "explanation": "Between a number and a noun you need a measure word. 个 is very common, but many nouns have their own measure word (一本书, 一杯水).",
+   "correct_example": {
+    "zh": "我有三个苹果。",
+    "pinyin": "Wǒ yǒu sān gè píngguǒ.",
+    "en": "I have three apples."
+   },
+   "wrong_example": {
+    "zh": "我有三苹果。",
+    "pinyin": "Wǒ yǒu sān píngguǒ.",
+    "en": "(I have three apples, no measure word.)",
+    "why": "The measure word is missing."
+   },
+   "source_point": "Measure word 'ge'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 1 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_1_grammar_points, accessed 2026-10-03",
+   "embed_text": "Numbers need a measure word. Between a number and a noun you need a measure word. 个 is very common, but many nouns have their own measure word (一本书, 一杯水). Common mistake: The measure word is missing. Keywords: ge measure word counting classifier. Pattern: Number + 个 + Noun"
+  },
+  {
+   "rule_id": "G1-10",
+   "level": 1,
+   "category": "word order",
+   "title": "Time words usually go before the verb",
+   "pattern": "Subj. + Time + Verb  /  Time + Subj. + Verb",
+   "explanation": "In neutral word order a time expression goes before the main verb: after the subject or at the start of the sentence (我明天去学校). Putting it after the verb or at the end is non-standard; in speech it can be added as an afterthought, but beginners should avoid it.",
+   "correct_example": {
+    "zh": "我明天去学校。",
+    "pinyin": "Wǒ míngtiān qù xuéxiào.",
+    "en": "I am going to school tomorrow."
+   },
+   "wrong_example": {
+    "zh": "我去明天学校。",
+    "pinyin": "Wǒ qù míngtiān xuéxiào.",
+    "en": "(I go tomorrow school.)",
+    "why": "The time word is placed after the verb; it should come before it."
+   },
+   "source_point": "Time words and word order",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 1 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_1_grammar_points, accessed 2026-10-03",
+   "embed_text": "Time words usually go before the verb. In neutral word order a time expression goes before the main verb: after the subject or at the start of the sentence (我明天去学校). Putting it after the verb or at the end is non-standard; in speech it can be added as an afterthought, but beginners should avoid it. Common mistake: The time word is placed after the verb; it should come before it. Keywords: time words tomorrow yesterday word order. Pattern: Subj. + Time + Verb  /  Time + Subj. + Verb"
+  },
+  {
+   "rule_id": "G1-11",
+   "level": 1,
+   "category": "word order",
+   "title": "Place goes before the verb with 在",
+   "pattern": "Subj. + 在 + Place + Verb",
+   "explanation": "To say where an action happens, the normal order is 在 + place before the verb (我在家看书). Putting the place after the verb and object (我看书在家) is non-canonical in neutral speech, so teach the standard order.",
+   "correct_example": {
+    "zh": "我在家看书。",
+    "pinyin": "Wǒ zàijiā kàn shū.",
+    "en": "I read at home."
+   },
+   "wrong_example": {
+    "zh": "我看书在家。",
+    "pinyin": "Wǒ kàn shū zàijiā.",
+    "en": "(I read at home, with the place last.)",
+    "why": "在 + place must come before the verb."
+   },
+   "source_point": "Indicating location with 'zai' before verbs",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "non-canonical",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 1 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_1_grammar_points, accessed 2026-10-03",
+   "embed_text": "Place goes before the verb with 在. To say where an action happens, the normal order is 在 + place before the verb (我在家看书). Putting the place after the verb and object (我看书在家) is non-canonical in neutral speech, so teach the standard order. Common mistake: 在 + place must come before the verb. Keywords: zai at location where action happens. Pattern: Subj. + 在 + Place + Verb"
+  },
+  {
+   "rule_id": "G1-12",
+   "level": 1,
+   "category": "verbs",
+   "title": "在 means 'be at', 有 means 'there is'",
+   "pattern": "Thing + 在 + Place  /  Place + 有 + Thing",
+   "explanation": "Use 在 to say where something is. Use 有 to say that something exists in a place; the place comes first.",
+   "correct_example": {
+    "zh": "学校里有很多学生。",
+    "pinyin": "Xuéxiào lǐ yǒu hěnduō xuésheng.",
+    "en": "There are many students in the school."
+   },
+   "wrong_example": {
+    "zh": "学校里在很多学生。",
+    "pinyin": "Xuéxiào lǐ zài hěnduō xuésheng.",
+    "en": "(In the school are many students, with 在.)",
+    "why": "有, not 在, says that something exists."
+   },
+   "source_point": "Expressing existence in a place with 'zai'; Expressing existence with 'you'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 1 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_1_grammar_points, accessed 2026-10-03",
+   "embed_text": "在 means 'be at', 有 means 'there is'. Use 在 to say where something is. Use 有 to say that something exists in a place; the place comes first. Common mistake: 有, not 在, says that something exists. Keywords: zai you exist there is location. Pattern: Thing + 在 + Place  /  Place + 有 + Thing"
+  },
+  {
+   "rule_id": "G1-13",
+   "level": 1,
+   "category": "negation",
+   "title": "Negate 有 with 没有",
+   "pattern": "Subj. + 没(有) + Obj.",
+   "explanation": "The negative of 有 is 没有 (or just 没). Never say 不有.",
+   "correct_example": {
+    "zh": "我没有钱。",
+    "pinyin": "Wǒ méiyǒu qián.",
+    "en": "I do not have any money."
+   },
+   "wrong_example": {
+    "zh": "我不有钱。",
+    "pinyin": "Wǒ bù yǒu qián.",
+    "en": "(I not have money.)",
+    "why": "不 cannot be used to negate 有."
+   },
+   "source_point": "Negation of 'you' with 'mei'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 1 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_1_grammar_points, accessed 2026-10-03",
+   "embed_text": "Negate 有 with 没有. The negative of 有 is 没有 (or just 没). Never say 不有. Common mistake: 不 cannot be used to negate 有. Keywords: mei you not have negation. Pattern: Subj. + 没(有) + Obj."
+  },
+  {
+   "rule_id": "G1-14",
+   "level": 1,
+   "category": "negation",
+   "title": "不 vs 没(有)",
+   "pattern": "不 + Verb  /  没(有) + Verb (+ 过)",
+   "explanation": "不 commonly negates habitual, general, present/future or willing (volitional) situations. 没(有) commonly negates an event that did not happen or has not happened yet. 'Never done it' uses 没(有) + Verb + 过.",
+   "correct_example": {
+    "zh": "我没去过北京。",
+    "pinyin": "Wǒ méi qù guò Běijīng.",
+    "en": "I have never been to Beijing."
+   },
+   "wrong_example": {
+    "zh": "我不去过北京。",
+    "pinyin": "Wǒ bù qù guò Běijīng.",
+    "en": "(I not have-been to Beijing.)",
+    "why": "不 cannot be used with 过; use 没(有) for 'have never'."
+   },
+   "source_point": "Comparing 'bu' and 'mei'; Negation of past actions with 'meiyou'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 1 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_1_grammar_points, accessed 2026-10-03",
+   "embed_text": "不 vs 没(有). 不 commonly negates habitual, general, present/future or willing (volitional) situations. 没(有) commonly negates an event that did not happen or has not happened yet. 'Never done it' uses 没(有) + Verb + 过. Common mistake: 不 cannot be used with 过; use 没(有) for 'have never'. Keywords: bu mei negation past present habit. Pattern: 不 + Verb  /  没(有) + Verb (+ 过)"
+  },
+  {
+   "rule_id": "G1-15",
+   "level": 1,
+   "category": "negation",
+   "title": "不 (太) before adjectives",
+   "pattern": "不 (太) + Adj.",
+   "explanation": "不 is the normal way to negate an adjective (不冷, 不太冷). 没 is for events, and it does not combine with a degree word such as 很.",
+   "correct_example": {
+    "zh": "今天不太冷。",
+    "pinyin": "Jīntiān bùtài lěng.",
+    "en": "It is not very cold today."
+   },
+   "wrong_example": {
+    "zh": "今天没很冷。",
+    "pinyin": "Jīntiān méi hěn lěng.",
+    "en": "(Today not-have very cold.)",
+    "why": "没 cannot be used together with 很 before an adjective; use 不太."
+   },
+   "source_point": "Standard negation with 'bu'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 1 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_1_grammar_points, accessed 2026-10-03",
+   "embed_text": "不 (太) before adjectives. 不 is the normal way to negate an adjective (不冷, 不太冷). 没 is for events, and it does not combine with a degree word such as 很. Common mistake: 没 cannot be used together with 很 before an adjective; use 不太. Keywords: bu negate adjective cold. Pattern: 不 (太) + Adj."
+  },
+  {
+   "rule_id": "G1-16",
+   "level": 1,
+   "category": "particles",
+   "title": "Verbal 了 goes right after the verb",
+   "pattern": "Subj. + Verb + 了 + Obj.",
+   "explanation": "了 right after a verb marks a bounded, completed event, often with a quantity (我吃了一个苹果). It is not simply a past-tense marker, and it never goes before the verb. Sentence-final 了 is different (see the 了 comparison rule).",
+   "correct_example": {
+    "zh": "我吃了一个苹果。",
+    "pinyin": "Wǒ chī le yī gè píngguǒ.",
+    "en": "I ate an apple."
+   },
+   "wrong_example": {
+    "zh": "我了吃一个苹果。",
+    "pinyin": "Wǒ le chī yī gè píngguǒ.",
+    "en": "(I le eat an apple, with 了 before the verb.)",
+    "why": "了 is placed before the verb."
+   },
+   "source_point": "Expressing completion with 'le'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 1 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_1_grammar_points, accessed 2026-10-03",
+   "embed_text": "Verbal 了 goes right after the verb. 了 right after a verb marks a bounded, completed event, often with a quantity (我吃了一个苹果). It is not simply a past-tense marker, and it never goes before the verb. Sentence-final 了 is different (see the 了 comparison rule). Common mistake: 了 is placed before the verb. Keywords: le completed action finished. Pattern: Subj. + Verb + 了 + Obj."
+  },
+  {
+   "rule_id": "G1-17",
+   "level": 1,
+   "category": "particles",
+   "title": "了 at the end for a new situation",
+   "pattern": "... + 了",
+   "explanation": "Put 了 at the end of the sentence to show a change or a new situation. In 'not any more' sentences 了 also goes at the end.",
+   "correct_example": {
+    "zh": "我不想吃了。",
+    "pinyin": "Wǒ bù xiǎng chī le.",
+    "en": "I do not want to eat any more."
+   },
+   "wrong_example": {
+    "zh": "我不了想吃。",
+    "pinyin": "Wǒ bù le xiǎng chī.",
+    "en": "(I not le want eat.)",
+    "why": "了 must be at the end of the sentence."
+   },
+   "source_point": "Expressing 'not anymore' with 'le'; Expressing 'now' with 'le'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 1 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_1_grammar_points, accessed 2026-10-03",
+   "embed_text": "了 at the end for a new situation. Put 了 at the end of the sentence to show a change or a new situation. In 'not any more' sentences 了 also goes at the end. Common mistake: 了 must be at the end of the sentence. Keywords: le sentence final change not anymore. Pattern: ... + 了"
+  },
+  {
+   "rule_id": "G1-18",
+   "level": 1,
+   "category": "particles",
+   "title": "的 for possession: owner first",
+   "pattern": "Noun/Pronoun 1 + 的 + Noun 2",
+   "explanation": "The owner comes first, then 的, then the thing that is owned.",
+   "correct_example": {
+    "zh": "这是我的书。",
+    "pinyin": "Zhè shì wǒ de shū.",
+    "en": "This is my book."
+   },
+   "wrong_example": {
+    "zh": "这是书我的。",
+    "pinyin": "Zhè shì shū wǒ de.",
+    "en": "(This is book my.)",
+    "why": "The owner and the thing are in the wrong order."
+   },
+   "source_point": "Expressing possession with 'de'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 1 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_1_grammar_points, accessed 2026-10-03",
+   "embed_text": "的 for possession: owner first. The owner comes first, then 的, then the thing that is owned. Common mistake: The owner and the thing are in the wrong order. Keywords: de possession my your. Pattern: Noun/Pronoun 1 + 的 + Noun 2"
+  },
+  {
+   "rule_id": "G1-19",
+   "level": 1,
+   "category": "auxiliary verbs",
+   "title": "能 and 会 need a verb",
+   "pattern": "Subj. + 能/会 + Verb",
+   "explanation": "能 and 会 are followed by a verb. 会 can sometimes stand alone, but 能 cannot.",
+   "correct_example": {
+    "zh": "我能说汉语。",
+    "pinyin": "Wǒ néng shuō hànyǔ.",
+    "en": "I can speak Chinese."
+   },
+   "wrong_example": {
+    "zh": "我能汉语。",
+    "pinyin": "Wǒ néng hànyǔ.",
+    "en": "(I can Chinese.)",
+    "why": "能 needs a verb after it."
+   },
+   "source_point": "Expressing ability or possibility with 'neng'; Expressing a learned skill with 'hui'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 1 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_1_grammar_points, accessed 2026-10-03",
+   "embed_text": "能 and 会 need a verb. 能 and 会 are followed by a verb. 会 can sometimes stand alone, but 能 cannot. Common mistake: 能 needs a verb after it. Keywords: neng hui can ability skill. Pattern: Subj. + 能/会 + Verb"
+  },
+  {
+   "rule_id": "G1-20",
+   "level": 1,
+   "category": "auxiliary verbs",
+   "title": "想 goes before the verb",
+   "pattern": "Subj. + 想 + Verb",
+   "explanation": "想 (would like to) comes before the main verb.",
+   "correct_example": {
+    "zh": "我想喝茶。",
+    "pinyin": "Wǒ xiǎng hē chá.",
+    "en": "I would like to drink tea."
+   },
+   "wrong_example": {
+    "zh": "我喝想茶。",
+    "pinyin": "Wǒ hē xiǎng chá.",
+    "en": "(I drink would-like tea.)",
+    "why": "想 is placed after the verb."
+   },
+   "source_point": "Expressing 'would like to' with 'xiang'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 1 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_1_grammar_points, accessed 2026-10-03",
+   "embed_text": "想 goes before the verb. 想 (would like to) comes before the main verb. Common mistake: 想 is placed after the verb. Keywords: xiang want would like. Pattern: Subj. + 想 + Verb"
+  },
+  {
+   "rule_id": "G1-21",
+   "level": 1,
+   "category": "verb phrases",
+   "title": "去 + place first, then the purpose",
+   "pattern": "Subj. + 去 + Place + Verb",
+   "explanation": "To say you go somewhere in order to do something, put 去 + place first and the purpose after it. The reverse order describes two separate actions one after the other (buy things, then go to the shop).",
+   "correct_example": {
+    "zh": "我去商店买东西。",
+    "pinyin": "Wǒ qù shāngdiàn mǎi dōngxi.",
+    "en": "I go to the shop to buy things."
+   },
+   "wrong_example": {
+    "zh": "我买东西去商店。",
+    "pinyin": "Wǒ mǎi dōngxi qù shāngdiàn.",
+    "en": "(I buy things, go to the shop.)",
+    "why": "With this order the shop is no longer the place where you buy things."
+   },
+   "source_point": "Directional verbs 'lai' and 'qu'; Using the verb 'qu'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "non-canonical",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 1 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_1_grammar_points, accessed 2026-10-03",
+   "embed_text": "去 + place first, then the purpose. To say you go somewhere in order to do something, put 去 + place first and the purpose after it. The reverse order describes two separate actions one after the other (buy things, then go to the shop). Common mistake: With this order the shop is no longer the place where you buy things. Keywords: qu go purpose serial verbs. Pattern: Subj. + 去 + Place + Verb"
+  },
+  {
+   "rule_id": "G1-22",
+   "level": 1,
+   "category": "adverbs",
+   "title": "太 ... 了 means 'too / so'",
+   "pattern": "太 + Adj. + 了",
+   "explanation": "太 + adjective + 了 means 'too ...' or 'so ...'. Do not add 很 to it.",
+   "correct_example": {
+    "zh": "今天太冷了。",
+    "pinyin": "Jīntiān tài lěng le.",
+    "en": "It is too cold today."
+   },
+   "wrong_example": {
+    "zh": "今天很太冷。",
+    "pinyin": "Jīntiān hěn tài lěng.",
+    "en": "(Today very too cold.)",
+    "why": "很 and 太 should not be used together."
+   },
+   "source_point": "Expressing 'excessively' with 'tai'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 1 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_1_grammar_points, accessed 2026-10-03",
+   "embed_text": "太 ... 了 means 'too / so'. 太 + adjective + 了 means 'too ...' or 'so ...'. Do not add 很 to it. Common mistake: 很 and 太 should not be used together. Keywords: tai too so very. Pattern: 太 + Adj. + 了"
+  },
+  {
+   "rule_id": "G1-23",
+   "level": 1,
+   "category": "numbers",
+   "title": "Dates go from big to small",
+   "pattern": "Month + 月 + Day + 号",
+   "explanation": "Say the month first, then the day. The bigger unit comes before the smaller one.",
+   "correct_example": {
+    "zh": "今天是十月五号。",
+    "pinyin": "Jīntiān shì shí yuè wǔ hào.",
+    "en": "Today is October 5th."
+   },
+   "wrong_example": {
+    "zh": "今天是五号十月。",
+    "pinyin": "Jīntiān shì wǔ hào shí yuè.",
+    "en": "(Today is the 5th October, wrong order.)",
+    "why": "The day is placed before the month."
+   },
+   "source_point": "Structure of dates",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 1 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_1_grammar_points, accessed 2026-10-03",
+   "embed_text": "Dates go from big to small. Say the month first, then the day. The bigger unit comes before the smaller one. Common mistake: The day is placed before the month. Keywords: date month day yue hao. Pattern: Month + 月 + Day + 号"
+  },
+  {
+   "rule_id": "G1-24",
+   "level": 1,
+   "category": "numbers",
+   "title": "Age uses 岁, not 有",
+   "pattern": "Subj. + Number + 岁",
+   "explanation": "Say someone's age with number + 岁. 有 + age (有五岁了) appears in speech only for emphasis, so beginners should not use 有 here.",
+   "correct_example": {
+    "zh": "我女儿五岁。",
+    "pinyin": "Wǒ nǚér wǔ suì.",
+    "en": "My daughter is five years old."
+   },
+   "wrong_example": {
+    "zh": "我女儿有五岁。",
+    "pinyin": "Wǒ nǚér yǒu wǔ suì.",
+    "en": "(My daughter has five years.)",
+    "why": "有 should not be used to give an age."
+   },
+   "source_point": "Age with 'sui'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "non-canonical",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 1 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_1_grammar_points, accessed 2026-10-03",
+   "embed_text": "Age uses 岁, not 有. Say someone's age with number + 岁. 有 + age (有五岁了) appears in speech only for emphasis, so beginners should not use 有 here. Common mistake: 有 should not be used to give an age. Keywords: sui age years old. Pattern: Subj. + Number + 岁"
+  },
+  {
+   "rule_id": "G1-25",
+   "level": 1,
+   "category": "sentence patterns",
+   "title": "是……的 stresses how, when or where",
+   "pattern": "是 + Detail + 的",
+   "explanation": "是……的 is an emphasis construction for the time, place or manner of an event you already know about. It is not needed for every past event, and 是 can be dropped in positive sentences. In the usual form 的 closes the sentence.",
+   "correct_example": {
+    "zh": "你是怎么来的？",
+    "pinyin": "Nǐ shì zěnme lái de?",
+    "en": "How did you come here?"
+   },
+   "wrong_example": {
+    "zh": "你是怎么来？",
+    "pinyin": "Nǐ shì zěnme lái?",
+    "en": "(How did you come, missing 的.)",
+    "why": "The final 的 is missing."
+   },
+   "source_point": "The 'shi... de' construction for emphasizing details",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "non-canonical",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 1 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_1_grammar_points, accessed 2026-10-03",
+   "embed_text": "是……的 stresses how, when or where. 是……的 is an emphasis construction for the time, place or manner of an event you already know about. It is not needed for every past event, and 是 can be dropped in positive sentences. In the usual form 的 closes the sentence. Common mistake: The final 的 is missing. Keywords: shi de emphasis how when where. Pattern: 是 + Detail + 的"
+  },
+  {
+   "rule_id": "G1-26",
+   "level": 1,
+   "kind": "do-not-flag",
+   "category": "word order",
+   "title": "The subject can be left out",
+   "pattern": "(Subj.) + Verb ... (subject understood from context)",
+   "explanation": "When the subject is clear from context, Chinese often leaves it out (昨天去了商店). Do not mark such a sentence as wrong just because it has no subject.",
+   "correct_example": {
+    "zh": "昨天去了商店。",
+    "pinyin": "Zuótiān qù le shāngdiàn.",
+    "en": "(I) went to the shop yesterday."
+   },
+   "wrong_example": null,
+   "source_point": "Added from reviewer feedback (not a wiki list item)",
+   "standard": "HSK2.0",
+   "error_strength": "n/a",
+   "source": "Author addition from reviewer feedback (general grammar)",
+   "embed_text": "The subject can be left out. When the subject is clear from context, Chinese often leaves it out (昨天去了商店). Do not mark such a sentence as wrong just because it has no subject. Do NOT mark this pattern as wrong. Keywords: omit subject dropped pronoun context. Pattern: (Subj.) + Verb ... (subject understood from context)"
+  },
+  {
+   "rule_id": "G2-01",
+   "level": 2,
+   "category": "numbers",
+   "title": "二 vs 两 before measure words",
+   "pattern": "两 + Measure Word + Noun",
+   "explanation": "Before a measure word use 两, not 二. 二 is for counting and for numbers.",
+   "correct_example": {
+    "zh": "我有两个朋友。",
+    "pinyin": "Wǒ yǒu liǎng gè péngyou.",
+    "en": "I have two friends."
+   },
+   "wrong_example": {
+    "zh": "我有二个朋友。",
+    "pinyin": "Wǒ yǒu èr gè péngyou.",
+    "en": "(I have two friends, with 二.)",
+    "why": "二 is used before a measure word."
+   },
+   "source_point": "Comparing 'er' and 'liang'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 2 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_2_grammar_points, accessed 2026-10-03",
+   "embed_text": "二 vs 两 before measure words. Before a measure word use 两, not 二. 二 is for counting and for numbers. Common mistake: 二 is used before a measure word. Keywords: er liang two measure word. Pattern: 两 + Measure Word + Noun"
+  },
+  {
+   "rule_id": "G2-02",
+   "level": 2,
+   "category": "prepositions",
+   "title": "离 for distance",
+   "pattern": "Place 1 + 离 + Place 2 + 很 + 近/远",
+   "explanation": "To say how far two places are, put 离 between them. The first place is the starting point.",
+   "correct_example": {
+    "zh": "我家离学校很近。",
+    "pinyin": "Wǒ jiā lí xuéxiào hěn jìn.",
+    "en": "My home is close to the school."
+   },
+   "wrong_example": {
+    "zh": "我家学校离很近。",
+    "pinyin": "Wǒ jiā xuéxiào lí hěn jìn.",
+    "en": "(My home school from close.)",
+    "why": "离 must be placed between the two places."
+   },
+   "source_point": "Expressing distance with 'li'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 2 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_2_grammar_points, accessed 2026-10-03",
+   "embed_text": "离 for distance. To say how far two places are, put 离 between them. The first place is the starting point. Common mistake: 离 must be placed between the two places. Keywords: li distance near far from. Pattern: Place 1 + 离 + Place 2 + 很 + 近/远"
+  },
+  {
+   "rule_id": "G2-03",
+   "level": 2,
+   "category": "comparison",
+   "title": "The adjective after 比 has no 很",
+   "pattern": "A + 比 + B + Adj.",
+   "explanation": "In A + 比 + B + adjective, the adjective stands without 很. To add degree, put 更 or 还 before it, or 一点 or 多了 after it (他比我高一点).",
+   "correct_example": {
+    "zh": "他比我高。",
+    "pinyin": "Tā bǐ wǒ gāo.",
+    "en": "He is taller than me."
+   },
+   "wrong_example": {
+    "zh": "他比我很高。",
+    "pinyin": "Tā bǐ wǒ hěn gāo.",
+    "en": "(He is than me very tall.)",
+    "why": "很 cannot be used in a 比 sentence."
+   },
+   "source_point": "Basic comparisons with 'bi'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 2 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_2_grammar_points, accessed 2026-10-03",
+   "embed_text": "The adjective after 比 has no 很. In A + 比 + B + adjective, the adjective stands without 很. To add degree, put 更 or 还 before it, or 一点 or 多了 after it (他比我高一点). Common mistake: 很 cannot be used in a 比 sentence. Keywords: bi compare than taller. Pattern: A + 比 + B + Adj."
+  },
+  {
+   "rule_id": "G2-04",
+   "level": 2,
+   "category": "adverbs",
+   "title": "更 and 最 are degree words before adjectives",
+   "pattern": "更/最 + Adj.",
+   "explanation": "更 (even more) and 最 (most) go directly before an adjective, in the same place as 很. An adjective takes only one degree word, so 最很 or 很更 is wrong.",
+   "correct_example": {
+    "zh": "她最漂亮。",
+    "pinyin": "Tā zuì piàoliang.",
+    "en": "She is the prettiest."
+   },
+   "wrong_example": {
+    "zh": "她最很漂亮。",
+    "pinyin": "Tā zuì hěn piàoliang.",
+    "en": "(She most very pretty.)",
+    "why": "最 and 很 should not be used together."
+   },
+   "source_point": "Superlative 'zui'; Expressing 'even more' with 'geng'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 2 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_2_grammar_points, accessed 2026-10-03",
+   "embed_text": "更 and 最 are degree words before adjectives. 更 (even more) and 最 (most) go directly before an adjective, in the same place as 很. An adjective takes only one degree word, so 最很 or 很更 is wrong. Common mistake: 最 and 很 should not be used together. Keywords: geng zui more most superlative. Pattern: 更/最 + Adj."
+  },
+  {
+   "rule_id": "G2-05",
+   "level": 2,
+   "category": "prepositions",
+   "title": "给 + person goes before the verb",
+   "pattern": "Subj. + 给 + Person + Verb",
+   "explanation": "To do something for someone, put 给 + the person before the verb.",
+   "correct_example": {
+    "zh": "我给妈妈打电话。",
+    "pinyin": "Wǒ gěi māma dǎdiànhuà.",
+    "en": "I phone my mother."
+   },
+   "wrong_example": {
+    "zh": "我打电话妈妈。",
+    "pinyin": "Wǒ dǎdiànhuà māma.",
+    "en": "(I phone mother, missing 给.)",
+    "why": "给 is missing before the person."
+   },
+   "source_point": "Expressing 'for' with 'gei'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 2 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_2_grammar_points, accessed 2026-10-03",
+   "embed_text": "给 + person goes before the verb. To do something for someone, put 给 + the person before the verb. Common mistake: 给 is missing before the person. Keywords: gei for to someone. Pattern: Subj. + 给 + Person + Verb"
+  },
+  {
+   "rule_id": "G2-06",
+   "level": 2,
+   "category": "verb phrases",
+   "title": "一起 goes before the verb",
+   "pattern": "Subj. + 一起 + Verb",
+   "explanation": "一起 (together) comes before the verb.",
+   "correct_example": {
+    "zh": "我们一起去商店吧。",
+    "pinyin": "Wǒmen yīqǐ qù shāngdiàn ba.",
+    "en": "Let us go to the shop together."
+   },
+   "wrong_example": {
+    "zh": "我们去一起商店吧。",
+    "pinyin": "Wǒmen qù yīqǐ shāngdiàn ba.",
+    "en": "(We go together shop.)",
+    "why": "一起 is placed after the verb."
+   },
+   "source_point": "Expressing 'together' with 'yiqi'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 2 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_2_grammar_points, accessed 2026-10-03",
+   "embed_text": "一起 goes before the verb. 一起 (together) comes before the verb. Common mistake: 一起 is placed after the verb. Keywords: yiqi together. Pattern: Subj. + 一起 + Verb"
+  },
+  {
+   "rule_id": "G2-07",
+   "level": 2,
+   "category": "verb phrases",
+   "title": "一下 comes after the verb",
+   "pattern": "Verb + 一下",
+   "explanation": "Put 一下 after the verb to make the action short and light.",
+   "correct_example": {
+    "zh": "你看一下。",
+    "pinyin": "Nǐ kàn yīxià.",
+    "en": "Take a look."
+   },
+   "wrong_example": {
+    "zh": "你一下看。",
+    "pinyin": "Nǐ yīxià kàn.",
+    "en": "(You a-bit look.)",
+    "why": "一下 is placed before the verb."
+   },
+   "source_point": "Verbing briefly with 'yixia'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 2 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_2_grammar_points, accessed 2026-10-03",
+   "embed_text": "一下 comes after the verb. Put 一下 after the verb to make the action short and light. Common mistake: 一下 is placed before the verb. Keywords: yixia briefly a bit. Pattern: Verb + 一下"
+  },
+  {
+   "rule_id": "G2-08",
+   "level": 2,
+   "category": "particles",
+   "title": "过 for past experience",
+   "pattern": "Subj. + Verb + 过 + Obj.",
+   "explanation": "过 comes right after the verb and means you have done it before.",
+   "correct_example": {
+    "zh": "我去过中国。",
+    "pinyin": "Wǒ qù guò Zhōngguó.",
+    "en": "I have been to China."
+   },
+   "wrong_example": {
+    "zh": "我去中国过。",
+    "pinyin": "Wǒ qù Zhōngguó guò.",
+    "en": "(I go China ever.)",
+    "why": "过 must come right after the verb."
+   },
+   "source_point": "Expressing experiences with 'guo'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 2 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_2_grammar_points, accessed 2026-10-03",
+   "embed_text": "过 for past experience. 过 comes right after the verb and means you have done it before. Common mistake: 过 must come right after the verb. Keywords: guo experience have ever. Pattern: Subj. + Verb + 过 + Obj."
+  },
+  {
+   "rule_id": "G2-09",
+   "level": 2,
+   "category": "complements",
+   "title": "得 comes right after the verb",
+   "pattern": "Subj. + Verb + 得 + Adj.  /  Subj. + Obj. + Verb + 得 + Adj.  /  Subj. + Verb + Obj. + Verb + 得 + Adj.",
+   "explanation": "To say how well someone does something, 得 sits right after the verb. With an object, either repeat the verb (他说汉语说得很好) or move the object before the verb (他汉语说得很好). 得 never goes after the object.",
+   "correct_example": {
+    "zh": "他汉语说得很好。",
+    "pinyin": "Tā hànyǔ shuō de hěn hǎo.",
+    "en": "He speaks Chinese very well."
+   },
+   "wrong_example": {
+    "zh": "他说汉语得很好。",
+    "pinyin": "Tā shuō hànyǔ de hěn hǎo.",
+    "en": "(He speaks Chinese de very well.)",
+    "why": "得 is placed after the object; it must follow the verb."
+   },
+   "source_point": "Degree complement",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 2 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_2_grammar_points, accessed 2026-10-03",
+   "embed_text": "得 comes right after the verb. To say how well someone does something, 得 sits right after the verb. With an object, either repeat the verb (他说汉语说得很好) or move the object before the verb (他汉语说得很好). 得 never goes after the object. Common mistake: 得 is placed after the object; it must follow the verb. Keywords: de degree complement how well. Pattern: Subj. + Verb + 得 + Adj.  /  Subj. + Obj. + Verb + 得 + Adj.  /  Subj. + Verb + Obj. + Verb + 得 + Adj."
+  },
+  {
+   "rule_id": "G2-10",
+   "level": 2,
+   "category": "complements",
+   "title": "Result complement 完",
+   "pattern": "Subj. + Verb + 完 + 了",
+   "explanation": "完 means 'finished' and goes right after the verb.",
+   "correct_example": {
+    "zh": "我吃完了。",
+    "pinyin": "Wǒ chī wán le.",
+    "en": "I have finished eating."
+   },
+   "wrong_example": {
+    "zh": "我完吃了。",
+    "pinyin": "Wǒ wán chī le.",
+    "en": "(I finish eat.)",
+    "why": "完 is placed before the verb."
+   },
+   "source_point": "Result complement '-wan' for finishing",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 2 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_2_grammar_points, accessed 2026-10-03",
+   "embed_text": "Result complement 完. 完 means 'finished' and goes right after the verb. Common mistake: 完 is placed before the verb. Keywords: wan finish result complement. Pattern: Subj. + Verb + 完 + 了"
+  },
+  {
+   "rule_id": "G2-11",
+   "level": 2,
+   "category": "questions",
+   "title": "Verb-not-verb questions: no 吗",
+   "pattern": "Verb + 不 + Verb？",
+   "explanation": "Say the verb twice with 不 in the middle to ask a question. Do not add 吗.",
+   "correct_example": {
+    "zh": "你去不去？",
+    "pinyin": "Nǐ qù bù qù?",
+    "en": "Are you going?"
+   },
+   "wrong_example": {
+    "zh": "你去不去吗？",
+    "pinyin": "Nǐ qù bù qù ma?",
+    "en": "(Are you going or not? with 吗.)",
+    "why": "吗 should not be added to a verb-not-verb question."
+   },
+   "source_point": "Affirmative-negative question",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 2 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_2_grammar_points, accessed 2026-10-03",
+   "embed_text": "Verb-not-verb questions: no 吗. Say the verb twice with 不 in the middle to ask a question. Do not add 吗. Common mistake: 吗 should not be added to a verb-not-verb question. Keywords: affirmative negative question bu ma. Pattern: Verb + 不 + Verb？"
+  },
+  {
+   "rule_id": "G2-12",
+   "level": 2,
+   "category": "adverbs",
+   "title": "快……了 means 'about to'",
+   "pattern": "快 + Verb/Adj. + 了",
+   "explanation": "快 ... 了 means something is about to happen. 了 is needed at the end.",
+   "correct_example": {
+    "zh": "快下雨了。",
+    "pinyin": "Kuài xiàyǔ le.",
+    "en": "It is about to rain."
+   },
+   "wrong_example": {
+    "zh": "快下雨。",
+    "pinyin": "Kuài xiàyǔ.",
+    "en": "(About to rain, missing 了.)",
+    "why": "The final 了 is missing."
+   },
+   "source_point": "Expressing 'about to happen' with 'le'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "non-canonical",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 2 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_2_grammar_points, accessed 2026-10-03",
+   "embed_text": "快……了 means 'about to'. 快 ... 了 means something is about to happen. 了 is needed at the end. Common mistake: The final 了 is missing. Keywords: kuai about to soon le. Pattern: 快 + Verb/Adj. + 了"
+  },
+  {
+   "rule_id": "G2-13",
+   "level": 2,
+   "category": "adverbs",
+   "title": "已经……了 means 'already'",
+   "pattern": "已经 + Verb + 了",
+   "explanation": "已经 ... 了 means 'already'. Keep 了 at the end.",
+   "correct_example": {
+    "zh": "他已经走了。",
+    "pinyin": "Tā yǐjīng zǒu le.",
+    "en": "He has already left."
+   },
+   "wrong_example": {
+    "zh": "他已经走。",
+    "pinyin": "Tā yǐjīng zǒu.",
+    "en": "(He already leave.)",
+    "why": "The final 了 is missing."
+   },
+   "source_point": "Expressing 'already' with 'yijing'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "non-canonical",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 2 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_2_grammar_points, accessed 2026-10-03",
+   "embed_text": "已经……了 means 'already'. 已经 ... 了 means 'already'. Keep 了 at the end. Common mistake: The final 了 is missing. Keywords: yijing already le. Pattern: 已经 + Verb + 了"
+  },
+  {
+   "rule_id": "G2-14",
+   "level": 2,
+   "category": "adverbs",
+   "title": "有点 vs 一点",
+   "pattern": "有点 + Adj.  /  Verb + Adj. + 一点",
+   "explanation": "一点 means 'a little'. It can follow an adjective (慢一点) or a verb (吃一点), or come before a noun (一点水). 有点 goes before an adjective and often adds a slightly negative feeling (有点贵).",
+   "correct_example": {
+    "zh": "请说慢一点。",
+    "pinyin": "Qǐng shuō màn yīdiǎn.",
+    "en": "Please speak a bit slower."
+   },
+   "wrong_example": {
+    "zh": "请说一点慢。",
+    "pinyin": "Qǐng shuō yīdiǎn màn.",
+    "en": "(Please speak a bit slow.)",
+    "why": "一点 must come after the adjective."
+   },
+   "source_point": "Comparing 'youdian' and 'yidian'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 2 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_2_grammar_points, accessed 2026-10-03",
+   "embed_text": "有点 vs 一点. 一点 means 'a little'. It can follow an adjective (慢一点) or a verb (吃一点), or come before a noun (一点水). 有点 goes before an adjective and often adds a slightly negative feeling (有点贵). Common mistake: 一点 must come after the adjective. Keywords: youdian yidian a bit little. Pattern: 有点 + Adj.  /  Verb + Adj. + 一点"
+  },
+  {
+   "rule_id": "G2-15",
+   "level": 2,
+   "category": "particles",
+   "title": "Describing phrase + 的 + noun",
+   "pattern": "Phrase + 的 + Noun",
+   "explanation": "A phrase that describes a noun goes before the noun and is joined to it with 的.",
+   "correct_example": {
+    "zh": "这是去学校的出租车。",
+    "pinyin": "Zhè shì qù xuéxiào de chūzūchē.",
+    "en": "This is the taxi to school."
+   },
+   "wrong_example": {
+    "zh": "这是出租车去学校的。",
+    "pinyin": "Zhè shì chūzūchē qù xuéxiào de.",
+    "en": "(This is the taxi to school, with the description after the noun.)",
+    "why": "The describing phrase is placed after the noun."
+   },
+   "source_point": "Modifying nouns with phrase + 'de'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 2 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_2_grammar_points, accessed 2026-10-03",
+   "embed_text": "Describing phrase + 的 + noun. A phrase that describes a noun goes before the noun and is joined to it with 的. Common mistake: The describing phrase is placed after the noun. Keywords: de modifier phrase before noun. Pattern: Phrase + 的 + Noun"
+  },
+  {
+   "rule_id": "G2-16",
+   "level": 2,
+   "category": "measure words",
+   "title": "这/那 + (number) + measure word",
+   "pattern": "这/那 + (Number) + Measure Word + Noun",
+   "explanation": "In standard Chinese, 这 and 那 are followed by a measure word before the noun (这本书). Some colloquial phrases drop it, but after a number it is always needed (这两本书).",
+   "correct_example": {
+    "zh": "这两本书很好。",
+    "pinyin": "Zhè liǎng běn shū hěn hǎo.",
+    "en": "These two books are good."
+   },
+   "wrong_example": {
+    "zh": "这两书很好。",
+    "pinyin": "Zhè liǎng shū hěn hǎo.",
+    "en": "(These two book good.)",
+    "why": "The measure word 本 is missing after the number."
+   },
+   "source_point": "Measure words with 'this' and 'that'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 2 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_2_grammar_points, accessed 2026-10-03",
+   "embed_text": "这/那 + (number) + measure word. In standard Chinese, 这 and 那 are followed by a measure word before the noun (这本书). Some colloquial phrases drop it, but after a number it is always needed (这两本书). Common mistake: The measure word 本 is missing after the number. Keywords: this that zhe na measure word. Pattern: 这/那 + (Number) + Measure Word + Noun"
+  },
+  {
+   "rule_id": "G2-17",
+   "level": 2,
+   "category": "auxiliary verbs",
+   "title": "可以 goes before the verb; do not stack modals",
+   "pattern": "Subj. + 可以 + Verb",
+   "explanation": "可以 (may / can) comes before the verb. Do not put it together with 能, 会 or 想 in front of the same verb.",
+   "correct_example": {
+    "zh": "我可以坐这里吗？",
+    "pinyin": "Wǒ kěyǐ zuò zhèlǐ ma?",
+    "en": "May I sit here?"
+   },
+   "wrong_example": {
+    "zh": "我能可以坐这里吗？",
+    "pinyin": "Wǒ néng kěyǐ zuò zhèlǐ ma?",
+    "en": "(I can may sit here?)",
+    "why": "Two modal verbs (能 and 可以) are stacked; use only one."
+   },
+   "source_point": "Expressing permission with 'keyi'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 2 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_2_grammar_points, accessed 2026-10-03",
+   "embed_text": "可以 goes before the verb; do not stack modals. 可以 (may / can) comes before the verb. Do not put it together with 能, 会 or 想 in front of the same verb. Common mistake: Two modal verbs (能 and 可以) are stacked; use only one. Keywords: keyi may permission allowed. Pattern: Subj. + 可以 + Verb"
+  },
+  {
+   "rule_id": "G2-18",
+   "level": 2,
+   "category": "adverbs",
+   "title": "正在 / 在 for actions in progress",
+   "pattern": "Subj. + 正在/在 + Verb",
+   "explanation": "Put 正在 or 在 before the verb to say that the action is happening now.",
+   "correct_example": {
+    "zh": "他正在看电视。",
+    "pinyin": "Tā zhèngzài kàn diànshì.",
+    "en": "He is watching TV."
+   },
+   "wrong_example": {
+    "zh": "他看电视正在。",
+    "pinyin": "Tā kàn diànshì zhèngzài.",
+    "en": "(He watches TV now-in-progress.)",
+    "why": "正在 is placed after the verb."
+   },
+   "source_point": "Expressing actions in progress with 'zai'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 2 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_2_grammar_points, accessed 2026-10-03",
+   "embed_text": "正在 / 在 for actions in progress. Put 正在 or 在 before the verb to say that the action is happening now. Common mistake: 正在 is placed after the verb. Keywords: zhengzai zai progressive happening now. Pattern: Subj. + 正在/在 + Verb"
+  },
+  {
+   "rule_id": "G2-19",
+   "level": 2,
+   "category": "particles",
+   "title": "了: after the verb vs at the end",
+   "pattern": "Verb + 了 + Obj.  /  ... + 了",
+   "explanation": "Verbal 了 follows the verb and marks a completed event (我吃了两个苹果). Sentence-final 了 marks a change or new situation (我吃苹果了). Both together mean 'so far' (我吃了两个苹果了). 了 is not a past-tense marker: habits and states do not take it.",
+   "correct_example": {
+    "zh": "我吃了两个苹果了。",
+    "pinyin": "Wǒ chī le liǎng gè píngguǒ le.",
+    "en": "I have eaten two apples so far."
+   },
+   "wrong_example": {
+    "zh": "我每天去了学校。",
+    "pinyin": "Wǒ měi tiān qù le xuéxiào.",
+    "en": "(Every day I went-le to school.)",
+    "why": "了 is not used for a habitual action."
+   },
+   "source_point": "Added from reviewer feedback; relates to 'Expressing completion with le' and 'Expressing now with le'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 2 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_2_grammar_points, accessed 2026-10-03",
+   "embed_text": "了: after the verb vs at the end. Verbal 了 follows the verb and marks a completed event (我吃了两个苹果). Sentence-final 了 marks a change or new situation (我吃苹果了). Both together mean 'so far' (我吃了两个苹果了). 了 is not a past-tense marker: habits and states do not take it. Common mistake: 了 is not used for a habitual action. Keywords: le verbal sentence final habitual not past tense. Pattern: Verb + 了 + Obj.  /  ... + 了"
+  },
+  {
+   "rule_id": "G2-20",
+   "level": 2,
+   "category": "measure words",
+   "title": "The measure word must fit the noun",
+   "pattern": "Number + Measure Word + Noun",
+   "explanation": "Many nouns need their own measure word: 一杯水, 一本书, 一个人. 个 is very common but is not a replacement for all of them.",
+   "correct_example": {
+    "zh": "我要一杯水。",
+    "pinyin": "Wǒ yào yī bēi shuǐ.",
+    "en": "I want a glass of water."
+   },
+   "wrong_example": {
+    "zh": "我要一个水。",
+    "pinyin": "Wǒ yào yī gè shuǐ.",
+    "en": "(I want one 个 water.)",
+    "why": "水 is counted with 杯, not 个."
+   },
+   "source_point": "Added from reviewer feedback; relates to 'Measure words for counting'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 2 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_2_grammar_points, accessed 2026-10-03",
+   "embed_text": "The measure word must fit the noun. Many nouns need their own measure word: 一杯水, 一本书, 一个人. 个 is very common but is not a replacement for all of them. Common mistake: 水 is counted with 杯, not 个. Keywords: measure word classifier ge bei ben match noun. Pattern: Number + Measure Word + Noun"
+  },
+  {
+   "rule_id": "G2-21",
+   "level": 2,
+   "category": "complements",
+   "title": "Potential complement: 不 goes inside",
+   "pattern": "Verb + 不 + Complement (cannot)  /  Verb + 得 + Complement (can)",
+   "explanation": "To say you cannot manage to do something, put 不 between the verb and its result: 听不懂 (cannot understand). Do not put 不 before the verb.",
+   "correct_example": {
+    "zh": "我听不懂。",
+    "pinyin": "Wǒ tīng bù dǒng.",
+    "en": "I cannot understand (what I hear)."
+   },
+   "wrong_example": {
+    "zh": "我不听懂。",
+    "pinyin": "Wǒ bù tīng dǒng.",
+    "en": "(I not listen-understand.)",
+    "why": "不 must go between the verb and the complement."
+   },
+   "source_point": "Potential complement '-bu dong' for not understanding",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 2 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_2_grammar_points, accessed 2026-10-03",
+   "embed_text": "Potential complement: 不 goes inside. To say you cannot manage to do something, put 不 between the verb and its result: 听不懂 (cannot understand). Do not put 不 before the verb. Common mistake: 不 must go between the verb and the complement. Keywords: bu dong cannot potential complement understand. Pattern: Verb + 不 + Complement (cannot)  /  Verb + 得 + Complement (can)"
+  },
+  {
+   "rule_id": "G3-01",
+   "level": 3,
+   "category": "sentence patterns",
+   "title": "把 sentences",
+   "pattern": "Subj. + 把 + Obj. + Verb Phrase",
+   "explanation": "把 puts the object before the verb. The verb needs something after it, such as 完 or 了.",
+   "correct_example": {
+    "zh": "我把书看完了。",
+    "pinyin": "Wǒ bǎ shū kàn wán le.",
+    "en": "I finished reading the book."
+   },
+   "wrong_example": {
+    "zh": "我看完把书了。",
+    "pinyin": "Wǒ kàn wán bǎ shū le.",
+    "en": "(I finished-read ba the book.)",
+    "why": "把 + object must come before the verb."
+   },
+   "source_point": "Using 'ba' sentences",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 3 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_3_grammar_points, accessed 2026-10-03",
+   "embed_text": "把 sentences. 把 puts the object before the verb. The verb needs something after it, such as 完 or 了. Common mistake: 把 + object must come before the verb. Keywords: ba disposal sentence object before verb. Pattern: Subj. + 把 + Obj. + Verb Phrase"
+  },
+  {
+   "rule_id": "G3-02",
+   "level": 3,
+   "category": "verb phrases",
+   "title": "How long: 了 + duration",
+   "pattern": "Verb + 了 + Duration + (的) + Obj.  /  Verb + Obj. + Verb + 了 + Duration",
+   "explanation": "There are several ways to say how long: put the duration after 了 and before the object (学习了两年汉语), or repeat the verb (学习汉语学习了两年). The duration cannot simply follow the object.",
+   "correct_example": {
+    "zh": "我学习了两年汉语。",
+    "pinyin": "Wǒ xuéxí le liǎng nián hànyǔ.",
+    "en": "I studied Chinese for two years."
+   },
+   "wrong_example": {
+    "zh": "我学习汉语了两年。",
+    "pinyin": "Wǒ xuéxí hànyǔ le liǎng nián.",
+    "en": "(I studied Chinese le two years.)",
+    "why": "The length of time must come right after 了."
+   },
+   "source_point": "Expressing duration with 'le'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 3 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_3_grammar_points, accessed 2026-10-03",
+   "embed_text": "How long: 了 + duration. There are several ways to say how long: put the duration after 了 and before the object (学习了两年汉语), or repeat the verb (学习汉语学习了两年). The duration cannot simply follow the object. Common mistake: The length of time must come right after 了. Keywords: le duration how long for years. Pattern: Verb + 了 + Duration + (的) + Obj.  /  Verb + Obj. + Verb + 了 + Duration"
+  },
+  {
+   "rule_id": "G3-03",
+   "level": 3,
+   "category": "adverbs",
+   "title": "再 vs 又 (repeating)",
+   "pattern": "再 + Verb  /  又 + Verb + 了",
+   "explanation": "再 is for a repeat that has not happened yet: plans, requests and wishes (请再说一次). 又 is for a repeat that has already happened (他又迟到了), and it can also mark a regular recurrence.",
+   "correct_example": {
+    "zh": "请再说一次。",
+    "pinyin": "Qǐng zài shuō yī cì.",
+    "en": "Please say it once more."
+   },
+   "wrong_example": {
+    "zh": "请又说一次。",
+    "pinyin": "Qǐng yòu shuō yī cì.",
+    "en": "(Please again say it once more.)",
+    "why": "又 is not used in requests; use 再."
+   },
+   "source_point": "Comparing 'zai' and 'you'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 3 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_3_grammar_points, accessed 2026-10-03",
+   "embed_text": "再 vs 又 (repeating). 再 is for a repeat that has not happened yet: plans, requests and wishes (请再说一次). 又 is for a repeat that has already happened (他又迟到了), and it can also mark a regular recurrence. Common mistake: 又 is not used in requests; use 再. Keywords: zai you again repeat. Pattern: 再 + Verb  /  又 + Verb + 了"
+  },
+  {
+   "rule_id": "G3-04",
+   "level": 3,
+   "category": "sentence patterns",
+   "title": "Two actions at once: 一边……一边……",
+   "pattern": "一边 + Verb 1，一边 + Verb 2",
+   "explanation": "Put 一边 before each verb to say two actions happen at the same time. 和 joins nouns (我和他), not two full actions.",
+   "correct_example": {
+    "zh": "他一边吃饭，一边看电视。",
+    "pinyin": "Tā yībiān chīfàn, yībiān kàn diànshì.",
+    "en": "He watches TV while eating."
+   },
+   "wrong_example": {
+    "zh": "他吃饭和看电视。",
+    "pinyin": "Tā chīfàn hé kàn diànshì.",
+    "en": "(He eats and watches TV, with 和.)",
+    "why": "和 does not join two actions; use 一边……一边……."
+   },
+   "source_point": "Simultaneous tasks with 'yibian'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 3 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_3_grammar_points, accessed 2026-10-03",
+   "embed_text": "Two actions at once: 一边……一边……. Put 一边 before each verb to say two actions happen at the same time. 和 joins nouns (我和他), not two full actions. Common mistake: 和 does not join two actions; use 一边……一边……. Keywords: yibian while at the same time. Pattern: 一边 + Verb 1，一边 + Verb 2"
+  },
+  {
+   "rule_id": "G3-05",
+   "level": 3,
+   "category": "sentence patterns",
+   "title": "如果 sets the condition; the result uses 就",
+   "pattern": "如果 + Condition，(就) + Result",
+   "explanation": "如果 starts the condition and usually comes first (in speech it can follow as an afterthought). The result part often uses 就, not 所以 or 但是.",
+   "correct_example": {
+    "zh": "如果明天下雨，我就不去。",
+    "pinyin": "Rúguǒ míngtiān xiàyǔ, wǒ jiù bù qù.",
+    "en": "If it rains tomorrow, I will not go."
+   },
+   "wrong_example": {
+    "zh": "如果明天下雨，所以我不去。",
+    "pinyin": "Rúguǒ míngtiān xiàyǔ, suǒyǐ wǒ bù qù.",
+    "en": "(If it rains tomorrow, so I will not go.)",
+    "why": "所以 belongs with 因为, not 如果; use 就 in the result."
+   },
+   "source_point": "Expressing 'if... then...' with 'ruguo... jiu...'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 3 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_3_grammar_points, accessed 2026-10-03",
+   "embed_text": "如果 sets the condition; the result uses 就. 如果 starts the condition and usually comes first (in speech it can follow as an afterthought). The result part often uses 就, not 所以 or 但是. Common mistake: 所以 belongs with 因为, not 如果; use 就 in the result. Keywords: ruguo if then jiu condition. Pattern: 如果 + Condition，(就) + Result"
+  },
+  {
+   "rule_id": "G3-06",
+   "level": 3,
+   "category": "adverbs",
+   "title": "越来越 means 'more and more'",
+   "pattern": "越来越 + Adj. + 了",
+   "explanation": "越来越 means 'more and more'. Do not add 很 to it.",
+   "correct_example": {
+    "zh": "天气越来越冷了。",
+    "pinyin": "Tiānqì yuèláiyuè lěng le.",
+    "en": "The weather is getting colder and colder."
+   },
+   "wrong_example": {
+    "zh": "天气越来越很冷。",
+    "pinyin": "Tiānqì yuèláiyuè hěn lěng.",
+    "en": "(Weather more-and-more very cold.)",
+    "why": "很 should not be used with 越来越."
+   },
+   "source_point": "Expressing 'more and more' with 'yuelaiyue'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 3 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_3_grammar_points, accessed 2026-10-03",
+   "embed_text": "越来越 means 'more and more'. 越来越 means 'more and more'. Do not add 很 to it. Common mistake: 很 should not be used with 越来越. Keywords: yuelaiyue more and more getting. Pattern: 越来越 + Adj. + 了"
+  },
+  {
+   "rule_id": "G3-07",
+   "level": 3,
+   "category": "verbs",
+   "title": "让 + person + verb",
+   "pattern": "Subj. + 让 + Person + Verb",
+   "explanation": "让 means 'let' or 'ask someone to'. The person comes right after 让, then the verb.",
+   "correct_example": {
+    "zh": "妈妈让我去商店。",
+    "pinyin": "Māma ràng wǒ qù shāngdiàn.",
+    "en": "Mom asks me to go to the shop."
+   },
+   "wrong_example": {
+    "zh": "妈妈我让去商店。",
+    "pinyin": "Māma wǒ ràng qù shāngdiàn.",
+    "en": "(Mom me asks go shop.)",
+    "why": "The person must come after 让."
+   },
+   "source_point": "Causative verbs",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 3 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_3_grammar_points, accessed 2026-10-03",
+   "embed_text": "让 + person + verb. 让 means 'let' or 'ask someone to'. The person comes right after 让, then the verb. Common mistake: The person must come after 让. Keywords: rang let make ask causative. Pattern: Subj. + 让 + Person + Verb"
+  },
+  {
+   "rule_id": "G3-08",
+   "level": 3,
+   "category": "conjunctions",
+   "title": "还是 in questions, 或者 in statements",
+   "pattern": "A + 还是 + B？",
+   "explanation": "还是 offers a choice in a question and is the normal form there. 或者 is used in statements ('either ... or').",
+   "correct_example": {
+    "zh": "你喝茶还是咖啡？",
+    "pinyin": "Nǐ hē chá háishi kāfēi?",
+    "en": "Do you want tea or coffee?"
+   },
+   "wrong_example": {
+    "zh": "你喝茶或者咖啡？",
+    "pinyin": "Nǐ hē chá huòzhě kāfēi?",
+    "en": "(You drink tea or coffee, with 或者 in a question.)",
+    "why": "还是, not 或者, is used in a choice question."
+   },
+   "source_point": "Offering choices with 'haishi'; Comparing 'haishi' and 'huozhe'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "non-canonical",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 3 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_3_grammar_points, accessed 2026-10-03",
+   "embed_text": "还是 in questions, 或者 in statements. 还是 offers a choice in a question and is the normal form there. 或者 is used in statements ('either ... or'). Common mistake: 还是, not 或者, is used in a choice question. Keywords: haishi huozhe or choice. Pattern: A + 还是 + B？"
+  },
+  {
+   "rule_id": "G3-09",
+   "level": 3,
+   "category": "particles",
+   "title": "Adjective + 的 + noun",
+   "pattern": "(很) + Adj. + 的 + Noun",
+   "explanation": "When an adjective with 很 describes a noun, put 的 between the adjective and the noun.",
+   "correct_example": {
+    "zh": "我有一个很漂亮的朋友。",
+    "pinyin": "Wǒ yǒu yī gè hěn piàoliang de péngyou.",
+    "en": "I have a very pretty friend."
+   },
+   "wrong_example": {
+    "zh": "我有一个很漂亮朋友。",
+    "pinyin": "Wǒ yǒu yī gè hěn piàoliang péngyou.",
+    "en": "(I have a very pretty friend, missing 的.)",
+    "why": "The 的 after the adjective is missing."
+   },
+   "source_point": "Modifying nouns with adjective + 'de'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 3 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_3_grammar_points, accessed 2026-10-03",
+   "embed_text": "Adjective + 的 + noun. When an adjective with 很 describes a noun, put 的 between the adjective and the noun. Common mistake: The 的 after the adjective is missing. Keywords: de adjective before noun modify. Pattern: (很) + Adj. + 的 + Noun"
+  },
+  {
+   "rule_id": "G3-10",
+   "level": 3,
+   "category": "adverbs",
+   "title": "就 (early) vs 才 (late) before the verb",
+   "pattern": "Time + 就 + Verb  /  Time + 才 + Verb",
+   "explanation": "就 and 才 go after the time expression and before the verb. 就 suggests early or quick; 才 suggests late or slow, and in the 'not until' sense it is normally not used with sentence-final 了.",
+   "correct_example": {
+    "zh": "他六点就起床了。",
+    "pinyin": "Tā liù diǎn jiù qǐchuáng le.",
+    "en": "He got up as early as six."
+   },
+   "wrong_example": {
+    "zh": "他才起床六点。",
+    "pinyin": "Tā cái qǐchuáng liù diǎn.",
+    "en": "(He only got-up six o'clock.)",
+    "why": "才 and the time are in the wrong order; the time comes first."
+   },
+   "source_point": "Comparing 'cai' and 'jiu'; Expressing earliness with 'jiu'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 3 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_3_grammar_points, accessed 2026-10-03",
+   "embed_text": "就 (early) vs 才 (late) before the verb. 就 and 才 go after the time expression and before the verb. 就 suggests early or quick; 才 suggests late or slow, and in the 'not until' sense it is normally not used with sentence-final 了. Common mistake: 才 and the time are in the wrong order; the time comes first. Keywords: jiu cai early late only. Pattern: Time + 就 + Verb  /  Time + 才 + Verb"
+  },
+  {
+   "rule_id": "G3-11",
+   "level": 3,
+   "category": "particles",
+   "title": "的, 地 and 得",
+   "pattern": "Modifier + 的 + Noun  /  Adverb + 地 + Verb  /  Verb + 得 + Complement",
+   "explanation": "的 links a describing word to a noun (红色的车). 地 links an adverb to a verb (慢慢地走). 得 links a verb to its complement (跑得很快). All three sound like 'de', so they cannot be told apart in Pinyin.",
+   "correct_example": {
+    "zh": "他跑得很快。",
+    "pinyin": "Tā pǎo de hěn kuài.",
+    "en": "He runs very fast."
+   },
+   "wrong_example": {
+    "zh": "他跑的很快。",
+    "pinyin": "Tā pǎo de hěn kuài.",
+    "en": "(He runs de very fast.)",
+    "why": "After a verb the complement marker is 得, not 的."
+   },
+   "error_strength": "standard-written",
+   "source_point": "Structural particle 'de'",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 3 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_3_grammar_points, accessed 2026-10-03",
+   "embed_text": "的, 地 and 得. 的 links a describing word to a noun (红色的车). 地 links an adverb to a verb (慢慢地走). 得 links a verb to its complement (跑得很快). All three sound like 'de', so they cannot be told apart in Pinyin. Common mistake: After a verb the complement marker is 得, not 的. Keywords: de di de particles structural complement. Pattern: Modifier + 的 + Noun  /  Adverb + 地 + Verb  /  Verb + 得 + Complement"
+  },
+  {
+   "rule_id": "G3-12",
+   "level": 3,
+   "category": "complements",
+   "title": "Direction words 来 and 去 after verbs",
+   "pattern": "Verb + Place + 来/去",
+   "explanation": "来 (toward the speaker) or 去 (away) can follow a verb. If the verb has a place object, the place goes between them: 回家去, not 回去家.",
+   "correct_example": {
+    "zh": "他回家去了。",
+    "pinyin": "Tā huíjiā qù le.",
+    "en": "He went back home."
+   },
+   "wrong_example": {
+    "zh": "他回去家了。",
+    "pinyin": "Tā huíqu jiā le.",
+    "en": "(He went-back-away home.)",
+    "why": "The place should come between 回 and 去."
+   },
+   "source_point": "Direction complement",
+   "standard": "HSK2.0",
+   "kind": "error-pattern",
+   "error_strength": "clear",
+   "source": "Chinese Grammar Wiki (AllSet Learning), HSK 3 grammar points, https://resources.allsetlearning.com/chinese/grammar/HSK_3_grammar_points, accessed 2026-10-03",
+   "embed_text": "Direction words 来 and 去 after verbs. 来 (toward the speaker) or 去 (away) can follow a verb. If the verb has a place object, the place goes between them: 回家去, not 回去家. Common mistake: The place should come between 回 and 去. Keywords: lai qu direction complement place object. Pattern: Verb + Place + 来/去"
+  }
+ ]
+}
