@@ -30,7 +30,7 @@ Set the backend and your OpenRouter key in the same terminal (see the top of `sr
 ```powershell
 $env:LLM_BACKEND="openrouter"
 $env:OPENROUTER_API_KEY="your-openrouter-key"
-$env:OPENROUTER_MODEL="qwen/qwen-2.5-7b-instruct"
+$env:LLM_MODEL="qwen/qwen-2.5-7b-instruct"
 ```
 
 Mac / Linux: use `export NAME="value"` instead of `$env:NAME="value"`.
@@ -62,7 +62,17 @@ python -m src.pipeline "asdfgh qwerty zxcv" rag_guardrail
 
 Compare conditions on the same sentence by changing the last word, e.g. `plain` vs `rag`.
 
-Streamlit app:
+Streamlit app. `.streamlit/secrets.toml` is not in the repo (it holds the API key), so create it first, then run the app.
+
+Create `.streamlit/secrets.toml` with:
+
+```toml
+LLM_BACKEND = "openrouter"
+LLM_MODEL = "qwen/qwen-2.5-7b-instruct"
+OPENROUTER_API_KEY = "your-openrouter-key"
+```
+
+Run:
 
 ```powershell
 python -m streamlit run app.py
