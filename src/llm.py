@@ -23,6 +23,7 @@ Rules:
 - If the input is not a real Chinese/Pinyin sentence, set is_correct=false and say so in the explanation.
 - Prefer HSK 1-3 words in the correction. List any words you used or saw outside HSK 1-3 in out_of_scope_words.
 - corrected_pinyin must have tone marks.
+- If the sentence is natural and correct, set is_correct to true and return it unchanged. Never change numbers, names or meaning.
 Return ONLY one JSON object with exactly these keys, in this order:
 {"explanation": <string>, "is_correct": <true|false>, "error_type": <string, "none" if correct>,
  "corrected_hanzi": <string>, "corrected_pinyin": <string>, "english_translation": <string>,

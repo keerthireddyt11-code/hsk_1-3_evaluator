@@ -14,7 +14,7 @@ _PATH = os.path.join(os.path.dirname(__file__), "..", "data", "hsk_vocab.json")
 VOCAB = {w["hanzi"] for w in json.load(open(_PATH, encoding="utf-8"))}
 # Function words the grammar source teaches at HSK 1-3 but that the vocab list files under a higher
 # level (e.g. 过 is 'old-4' in complete-hsk-vocabulary). Keep this list SHORT and document it in the README.
-GRAMMAR_ALLOWLIST = {"过"}
+GRAMMAR_ALLOWLIST = {"过", "等"}
 VOCAB |= GRAMMAR_ALLOWLIST
 VOCAB_CHARS = {c for w in VOCAB for c in w}   # every character that appears in some HSK 2.0 L1-3 word
 _MAXLEN = max(len(w) for w in VOCAB)

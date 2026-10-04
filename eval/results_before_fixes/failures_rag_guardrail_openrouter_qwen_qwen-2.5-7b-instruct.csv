@@ -1,0 +1,21 @@
+﻿id,reason,input,key_verdict,accepted,key_error_type,key_rule,model_verdict,model_correction,model_error_type,explanation,retrieved_rules,status
+3,wrong_correction,Wǒ bù le xǐhuan tā.,false,我不喜欢他了。,了 position: sentence-final,G1-17,False,我不要喜欢他。,不 vs 了,不了 is not a correct word here. You should use 不 to negate a situation.,G2-21 G1-14 G1-17,ok
+8,wrong_correction,我家 xuéxiào 很近。,false,我家离学校很近。,missing 离 for distance,G2-02,False,我家学校很近。,position of 很,"很 should come before the noun, not after it.",G2-02 G1-02 G2-10,ok
+10,wrong_correction,Nàge rén hěn tài gāo.,false,那个人太高了。,很 with 太,G1-22,False,那个人很高。,Rule G1-22,太 should not be used with 很. 太 already means 'too' or 'very'.,G1-22 G2-16 G1-09,ok
+13,wrong_correction,qing yixia deng,false,请等一下。,一下 position,G2-07,False,请打开灯,incorrect placement of 一下,This sentence is not correct. It should be '请一下灯' or '请打开灯'. The word '一下' should come after the verb.,G2-07 G2-20 G1-09,ok
+14,wrong_correction,那是衣服哥哥的。,false,那是哥哥的衣服。,possession order with 的,G1-18,False,这是衣服哥哥的。,wrong demonstrative pronoun,"The sentence is close, but it should use '这' instead of '那' because you are talking about something closer to the speaker.",G1-25 G2-16 G2-15,ok
+15,over_correction,Tā yǒu liǎng gè dìdi.,true,他有两个弟弟。,none,,False,他有一个弟弟。,noun mismatch,"弟弟 should be singular here. The sentence means 'he has two younger brothers,' but he likely has one younger brother.",G2-01 G1-09 G1-12,ok
+17,wrong_correction,Wǒ kàn xiǎng diànyǐng.,false,我想看电影。,想 position,G1-20,False,我想要看电影。,position of 想,想 should come before the verb according to Rule G1-20.,G1-20 G2-10 G1-02,ok
+18,wrong_correction,她唱歌得很好。,false,她唱歌唱得很好。|她歌唱得很好。,得 needs verb before it,G2-09,False,她唱歌很 good。,位置错误,得很好 should come right after the verb. ,G2-09 G3-06 G2-12,ok
+19,over_correction,ni xihuan kan dianying ma,true,你喜欢看电影吗？,none,,False,你喜不喜欢看电影呢？,missing_question_word_and_了,This sentence is missing a question word and the final 了. It should be a question.,G3-06 G2-13 G2-12,ok
+20,wrong_correction,Dìdi zuòyè wán xiě le.,false,弟弟写完作业了。,完 position (result complement),G2-10,False,弟弟作业已经写完了。,none,The sentence is missing the word '已经' before '完'.,G2-10 G3-06 G2-13,ok
+22,wrong_correction,汉堡好吃很。,false,汉堡很好吃。,很 after adjective,G1-02,False,汉堡好吃。,grammar,不要用 很 与 好吃 搭配。,G3-06 G2-13 G2-12,ok
+25,wrong_correction,wo xiang he yi ge niunai,false,我想喝一杯牛奶。,wrong measure word,G2-20,False,我想要一杯牛奶。,Rule G2-20,牛奶 needs a measure word. 一杯牛奶 is correct.,G2-20 G1-09 G1-20,ok
+27,false_accept,今天比昨天 hěn rè。,false,今天比昨天热。|今天比昨天更热。,很 in a 比 sentence,G2-03,True,今天比昨天很热。,none,The sentence is almost correct. 比 (bǐ) does not need 很 (hěn) before the adjective 热 (rè).,G1-10 G2-03 G3-06,ok
+29,wrong_correction,Wǒ yīfu bǎ xǐ le.,false,我把衣服洗了。,把 object position,G3-01,False,我衣服把洗了。,Grammar,把 should come before the verb. The correct sentence structure is Subj. + 把 + Obj. + Verb.,G3-01 G2-10 G1-02,ok
+31,false_accept,她学 hànyǔ 过。,false,她学过汉语。,过 position,G2-08,True,她学过汉语。,none,The sentence is correct. 过 is used correctly after the verb to indicate past experience.,G2-08 G3-02 G2-09,ok
+39,false_accept,我不看见他。,false,我看不见他。|我没看见他。,potential complement: 不 inside,G2-21,True,我不看见他。,none,"This sentence is correct. 不 goes before the verb 见, which is fine.",G2-21 G1-14 G2-11,ok
+40,wrong_correction,ta you yi ge hen piaoliang pengyou,false,他有一个很漂亮的朋友。|她有一个很漂亮的朋友。,missing 的 after adjective,G3-09,False,他有一个很漂亮的朋友试试吗？,missing measure word,"The sentence is almost correct. 朋友 should be written as 一个朋友, with the measure word 个 before the noun.",G1-09 G2-20 G2-14,ok
+43,false_accept,他看电视了两个小时。,false,他看了两个小时电视。|他看了两个小时的电视。|他看电视看了两个小时。,duration must follow 了,G3-02,True,他看电视了两个小时。,none,The sentence is correct and natural.,G2-01 G1-09 G2-20,ok
+47,over_correction,wo xihuan chi shala,true,我喜欢吃沙拉。,none,,False,我喜欢吃水果,missing verb,"The sentence is missing the verb. You should say '我喜欢吃水果' (wǒ xǐ huān chī shuǐ guǒ), which means 'I like to eat fruit.'",G1-17 G2-10 G1-02,ok
+50,over_correction,ta zhengzai xie zuoye,true,他正在写作业。,none,,False,他正在写作业,Grammar,正在 should come before the verb. The correct sentence is 他正在写作业。,G2-18 G2-13 G2-12,ok

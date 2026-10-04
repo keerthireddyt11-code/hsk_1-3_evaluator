@@ -1,0 +1,28 @@
+﻿id,reason,input,key_verdict,accepted,key_error_type,key_rule,model_verdict,model_correction,model_error_type,explanation,retrieved_rules,status
+3,false_accept,Wǒ bù le xǐhuan tā.,false,我不喜欢他了。,了 position: sentence-final,G1-17,True,我 不 喜欢 他 。,none,The sentence is grammatically correct and natural.,,ok
+5,false_accept,wo neng hanyu,false,我能说汉语。|我会说汉语。,能 needs a verb,G1-19,True,我能汉语,none,The sentence is almost correct. '能' (néng) means 'can' and is used correctly here.,,ok
+7,false_accept,Wǒ jiā zài yī zhī māo.,false,我家有一只猫。,在 vs 有 for existence,G1-12,True,我们家有一只猫。,none,This sentence is grammatically correct and natural.,,ok
+8,wrong_correction,我家 xuéxiào 很近。,false,我家离学校很近。,missing 离 for distance,G2-02,False,我家 很近。,词汇搭配不当,"The sentence is almost correct, but 'xuéxiào' (school) doesn't match the context of '我家' (my home).",,ok
+10,false_accept,Nàge rén hěn tài gāo.,false,那个人太高了。,很 with 太,G1-22,True,那个人太高了。,none,The sentence is grammatically correct and natural.,,ok
+14,wrong_correction,那是衣服哥哥的。,false,那是哥哥的衣服。,possession order with 的,G1-18,False,那是他的衣服。,word choice,"The sentence is almost correct, but '哥哥' (gēge) means 'elder brother'. If you want to say 'his clothes', you should use '他的' (tā de).",,ok
+16,wrong_correction,我喜欢菜 lǎoshī 做的。,false,我喜欢老师做的菜。,describing phrase placed after noun,G2-15,False,我喜欢菜 為他做的。,word choice,"The sentence is almost correct, but 'lǎoshī' (teacher) doesn't fit here. We should use a word that means 'cooked' or 'prepared'.",,ok
+18,false_accept,她唱歌得很好。,false,她唱歌唱得很好。|她歌唱得很好。,得 needs verb before it,G2-09,True,她唱歌得很好。,none,The sentence is grammatically correct and natural.,,ok
+20,false_accept,Dìdi zuòyè wán xiě le.,false,弟弟写完作业了。,完 position (result complement),G2-10,True,弟弟做业写完了。,none,The sentence is grammatically correct and natural.,,ok
+21,wrong_correction,Wǒ de shēngrì shì bā hào qī yuè.,false,我的生日是七月八号。,date order,G1-23,False,我的生日是八号七月。,word_order,"The sentence is almost correct, but the order of the date should be day then month.",,ok
+22,false_accept,汉堡好吃很。,false,汉堡很好吃。,很 after adjective,G1-02,True,汉堡好吃很。,none,The sentence is grammatically correct and natural.,,ok
+23,wrong_correction,她有四 jiějie。,false,她有四个姐姐。,missing measure word,G1-09,False,她有四个妹妹。,word usage,"The sentence is almost correct, but 'jiějie' should be written as '妺妹' for 'sister'.",,ok
+25,wrong_correction,wo xiang he yi ge niunai,false,我想喝一杯牛奶。,wrong measure word,G2-20,False,我想要交一个朋友,vocabulary,"The sentence is almost correct, but 'niunai' is not an HSK 1-3 word. You meant to say '朋友' (péngyǒu) which means friend.",,ok
+27,false_accept,今天比昨天 hěn rè。,false,今天比昨天热。|今天比昨天更热。,很 in a 比 sentence,G2-03,True,今天比昨天很热。,none,"The sentence is almost correct, but '昨天' should be written in characters instead of pinyin.",,ok
+29,wrong_correction,Wǒ yīfu bǎ xǐ le.,false,我把衣服洗了。,把 object position,G3-01,False,我衣服就洗了。,verb usage,"The sentence is almost correct, but 'bǎ' should be used with transitive verbs. Here, 'xǐ' is an intransitive verb, so 'jiù' (就) is more appropriate.",,ok
+31,false_accept,她学 hànyǔ 过。,false,她学过汉语。,过 position,G2-08,True,她学过汉语。,none,The sentence is correct and natural.,,ok
+32,over_correction,wo zuotian mei qu xuexiao,true,我昨天没去学校。,none,,False,我昨天没去学校,tone mark error,"The sentence is almost correct, but 'zuotian' should be written as 'zuótiān' with the correct tone marks.",,ok
+33,false_accept,你喝不喝茶吗？,false,你喝不喝茶？|你喝茶吗？,吗 with verb-not-verb question,G2-11,True,你喝不喝茶吗？,none,The sentence is correct and natural.,,ok
+34,false_accept,你想可以喝茶吗？,false,你可以喝茶吗？|你想喝茶吗？,stacked modal verbs,G2-17,True,你想可以喝茶吗？,none,"The sentence is almost correct, but the word order can be improved for better fluency.",,ok
+35,false_accept,Tā yuèláiyuè hěn máng le.,false,他越来越忙了。,很 with 越来越,G3-06,True,他越来越很忙了。,none,"The sentence is almost correct, but the structure can be improved for better fluency.",,ok
+37,false_accept,他没很高。,false,他不高。|他不太高。,没 with 很 before adjective,G1-15,True,他没很高。,none,The sentence is correct and natural.,,ok
+39,false_accept,我不看见他。,false,我看不见他。|我没看见他。,potential complement: 不 inside,G2-21,True,我不看见他。,none,The sentence is grammatically correct and natural.,,ok
+40,false_accept,ta you yi ge hen piaoliang pengyou,false,他有一个很漂亮的朋友。|她有一个很漂亮的朋友。,missing 的 after adjective,G3-09,True,他有一个很漂亮的朋友们,none,"The sentence is almost correct, but 'hen' should be placed before 'piāoliáng' to emphasize how pretty the friend is.",,ok
+41,wrong_correction,他常常看了电视。,false,他常常看电视。,了 not used for habits,G2-19,False,他常常看了电视。,verb usage,"The sentence is almost correct, but the verb '看' should be followed by '了' to indicate a completed action.",,ok
+43,false_accept,他看电视了两个小时。,false,他看了两个小时电视。|他看了两个小时的电视。|他看电视看了两个小时。,duration must follow 了,G3-02,True,他看了两个小时的电视。,none,The sentence is grammatically correct and natural.,,ok
+45,false_accept,如果你累，所以休息。,false,如果你累，就休息。|如果你累了，就休息。,所以 used with 如果,G3-05,True,如果你累，休息。,none,"The sentence is almost correct, but the conjunction '所以' (suǒyǐ) is not necessary here.",,ok
+47,over_correction,wo xihuan chi shala,true,我喜欢吃沙拉。,none,,False,我喜欽吃西瓜,word,"The sentence uses a word not in HSK 1-3, 'shalā', which is incorrect. The correct word should be 'shālā' (西瓜), meaning watermelon.",,ok

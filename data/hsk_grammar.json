@@ -267,12 +267,12 @@
    "explanation": "To say where an action happens, the normal order is 在 + place before the verb (我在家看书). Putting the place after the verb and object (我看书在家) is non-canonical in neutral speech, so teach the standard order.",
    "correct_example": {
     "zh": "我在家看书。",
-    "pinyin": "Wǒ zàijiā kàn shū.",
+    "pinyin": "Wǒ zài jiā kàn shū.",
     "en": "I read at home."
    },
    "wrong_example": {
     "zh": "我看书在家。",
-    "pinyin": "Wǒ kàn shū zàijiā.",
+    "pinyin": "Wǒ kàn shū zài jiā.",
     "en": "(I read at home, with the place last.)",
     "why": "在 + place must come before the verb."
    },
@@ -367,7 +367,7 @@
    "explanation": "不 is the normal way to negate an adjective (不冷, 不太冷). 没 is for events, and it does not combine with a degree word such as 很.",
    "correct_example": {
     "zh": "今天不太冷。",
-    "pinyin": "Jīntiān bùtài lěng.",
+    "pinyin": "Jīntiān bù tài lěng.",
     "en": "It is not very cold today."
    },
    "wrong_example": {
@@ -1462,12 +1462,12 @@
    "explanation": "来 (toward the speaker) or 去 (away) can follow a verb. If the verb has a place object, the place goes between them: 回家去, not 回去家.",
    "correct_example": {
     "zh": "他回家去了。",
-    "pinyin": "Tā huíjiā qù le.",
+    "pinyin": "Tā huí jiā qù le.",
     "en": "He went back home."
    },
    "wrong_example": {
     "zh": "他回去家了。",
-    "pinyin": "Tā huíqu jiā le.",
+    "pinyin": "Tā huí qù jiā le.",
     "en": "(He went-back-away home.)",
     "why": "The place should come between 回 and 去."
    },

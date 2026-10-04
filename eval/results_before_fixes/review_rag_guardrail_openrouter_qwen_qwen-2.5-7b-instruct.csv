@@ -1,0 +1,5 @@
+﻿id,input,key_error_type,key_rule,model_error_type,model_correction,accepted,explanation,explanation_ok
+1,我哥哥喝也茶。,adverb position: 也,G1-03,G1-03,我哥哥也喝茶。,我哥哥也喝茶。,"也 should come before the verb 起来, not after it.",
+3,Wǒ bù le xǐhuan tā.,了 position: sentence-final,G1-17,不 vs 了,我不要喜欢他。,我不喜欢他了。,不了 is not a correct word here. You should use 不 to negate a situation.,
+4,你想买几 yīfu？,missing measure word after 几,G1-08,G1-08,你想买几件衣服？,你想买几件衣服？,"你想买几衣服？ is not correct. 几 needs a measure word, and 衣服 has its own measure word 件.",
+5,wo neng hanyu,能 needs a verb,G1-19,Rule G1-19,我能说汉语,我能说汉语。|我会说汉语。,能 needs a verb after it.,

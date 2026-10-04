@@ -1,25 +1,75 @@
-# HSK 1-3 RAG Sentence Evaluator
+# HSK 1–3 Sentence Assessor
 
-## Setup
+Checks a beginner Mandarin sentence (Hanzi or Pinyin) against HSK 1–3 grammar rules and explains the mistake in simple English. Project report and demo link are submitted separately.
+
+## Where to look
+
+| Folder / file | What it is | Details |
+|---|---|---|
+| `src/` | Product logic (pipeline, retrieval, LLM call, guardrail) | [src/README.md](src/README.md) |
+| `data/` | Vocabulary, grammar rule cards, 50-item answer key | [data/README.md](data/README.md) |
+| `eval/` | Evaluation scripts and saved results | [eval/README.md](eval/README.md) |
+| `app.py` | Streamlit app | |
+| `build_vocab.py` | One-off: builds `data/hsk_vocab.json` | |
+| `build_grammar.py` | One-off: builds `data/hsk_grammar.json` and checks its examples | |
+| `smoke_test.py` | Quick test that the model connection works | |
+| `requirements.txt` | Python packages | |
+
+Not committed (generated or secret): `.venv/`, `chroma_db/`, `__pycache__/`, `.streamlit/secrets.toml`.
+
+## Setup (PowerShell)
+
+```powershell
 python -m venv .venv
-.venv\Scripts\activate        (Windows)   |   source .venv/bin/activate (Mac/Linux)
+.venv\Scripts\activate
 pip install -r requirements.txt
-ollama pull qwen2.5:3b
+```
 
-## Run smoke test (Stage 1)
-python smoke_test.py
+Set the backend and your OpenRouter key in the same terminal (see the top of `src/llm.py` for the exact variable names):
 
-## Data sources (fill in as you go)
-- Vocab: complete-hsk-vocabulary (MIT), HSK 2.0 Levels 1-3 only (definitions via CC-CEDICT: check license/attribution)
-- Grammar: ___ (license: ___ , version: ___ , rule count: ___)
+```powershell
+$env:LLM_BACKEND="openrouter"
+$env:OPENROUTER_API_KEY="your-openrouter-key"
+$env:OPENROUTER_MODEL="qwen/qwen-2.5-7b-instruct"
+```
 
-## Data sources & licenses (update as you go)
-| Item | Source | License / terms | Notes |
-|---|---|---|---|
-| Vocabulary (HSK 2.0 L1-3, 595 entries) | complete-hsk-vocabulary (drkameleon) | MIT | Old HSK lists originate from clem109/hsk-vocabulary |
-| Word definitions | CC-CEDICT (via the repo above) | CC BY-SA (confirm) | Attribute when shown in the UI |
-| Grammar point list + patterns (53 rules) | Chinese Grammar Wiki, AllSet Learning, HSK 1/2/3 grammar point pages, accessed 2026-10-03 | (c) AllSet Learning; non-commercial use with attribution (Creative Commons) - confirm exact CC terms (NC / SA) on the wiki | Explanations + examples are original wording |
-| Not used | SN Mandarin 'HSK1 Grammar Cracker' (marketing booklet, no license stated); Marco Polo 'HSK 1-3 (2021 standard)' PDF (HSK 3.0, image-only) | - | Do not copy from these |
+Mac / Linux: use `export NAME="value"` instead of `$env:NAME="value"`.
 
-Caveats to state in the write-up: HSK 2.0 had no official grammar standard, so grammar levels are the wiki's estimates.
-vocab_check has a small GRAMMAR_ALLOWLIST (過 only) because the vocab list files 过 under a higher level than the wiki does.
+Check the `model` line printed at the start of each run to confirm which model answered.
+
+## Run
+
+Command line: `python -m src.pipeline "<sentence>" <condition>` where condition is `plain`, `rag` or `rag_guardrail`.
+
+Examples (`rag_guardrail`):
+
+```powershell
+# 1. Hanzi, wrong (word order): expect "needs a fix" -> 我昨天去商店
+python -m src.pipeline "我去商店昨天。" rag_guardrail
+
+# 2. Hanzi, correct: expect "correct", sentence unchanged
+python -m src.pipeline "请等一下。" rag_guardrail
+
+# 3. Pinyin only, wrong: converted to Hanzi first, then checked
+python -m src.pipeline "wo qu shangdian zuotian" rag_guardrail
+
+# 4. Hanzi + Pinyin mixed, wrong word order
+python -m src.pipeline "我 qu 商店 昨天" rag_guardrail
+
+# 5. Gibberish: expect a refusal (abstain)
+python -m src.pipeline "asdfgh qwerty zxcv" rag_guardrail
+```
+
+Compare conditions on the same sentence by changing the last word, e.g. `plain` vs `rag`.
+
+Streamlit app:
+
+```powershell
+python -m streamlit run app.py
+```
+
+Full evaluation (see `eval/README.md`):
+
+```powershell
+python eval/run_eval.py
+```

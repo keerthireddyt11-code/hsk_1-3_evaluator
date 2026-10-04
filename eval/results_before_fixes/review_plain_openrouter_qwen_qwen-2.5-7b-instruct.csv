@@ -1,0 +1,3 @@
+﻿id,input,key_error_type,key_rule,model_error_type,model_correction,accepted,explanation,explanation_ok
+1,我哥哥喝也茶。,adverb position: 也,G1-03,missing verb,我哥哥也喝茶。,我哥哥也喝茶。,The sentence is missing a verb before '喝' (to drink).,
+4,你想买几 yīfu？,missing measure word after 几,G1-08,word choice,你想买几件衣服？,你想买几件衣服？,"The sentence is close, but '衣服' (yīfu) means 'clothes' or 'shirt.' You should specify a type of clothing you want to buy.",
